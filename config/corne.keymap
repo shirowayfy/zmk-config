@@ -59,25 +59,10 @@
 
         Media {
             bindings = <
-&trans  &trans      &trans        &trans        &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp K_MUTE  &kp C_VOL_DN  &kt C_VOL_UP  &kp K_PLAY_PAUSE  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans        &trans        &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans        &trans            &trans    &trans  &trans  &trans
-            >;
-        };
-
-        colemak_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-
-            bindings = <
-&mt LEFT_ALT ESCAPE       &kp Q  &kp W  &kp F     &kp P  &kp G          &kp J      &kp L          &kp U       &kp Y    &kp SEMICOLON  &kp LEFT_BRACKET
-&mt LCTRL TAB             &kp A  &kp R  &kp S     &kp T  &kp D          &kp H      &kp N          &kp E       &kp I    &kp O          &kp SQT
-&mt LEFT_SHIFT BACKSLASH  &kp Z  &kp X  &kp C     &kp V  &kp B          &kp K      &kp M          &kp COMMA   &kp DOT  &kp FSLH       &mt LEFT_ALT TILDE
-                                        &kp LGUI  &mo 1  &lt 2 ENTER    &kp SPACE  &kp BACKSPACE  &lt 0 CAPS
+&trans  &trans      &trans        &trans        &trans            &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp K_MUTE  &kp C_VOL_DN  &kt C_VOL_UP  &kp K_PLAY_PAUSE  &kp LG(LS(KP_NUMBER_4))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans        &trans        &trans            &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans        &trans            &trans                     &trans  &trans  &trans
             >;
         };
     };
