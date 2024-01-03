@@ -58,10 +58,10 @@
 
         Media {
             bindings = <
-&trans  &trans      &trans        &trans           &trans            &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp LG(LS(KP_NUMBER_4))    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans        &trans           &trans            &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans           &trans            &trans                     &trans  &trans  &trans
+&trans  &trans      &trans        &trans           &trans            &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp LG(LS(NUMBER_4))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans        &trans           &trans            &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans           &trans            &trans                  &trans  &trans  &trans
             >;
         };
     };
